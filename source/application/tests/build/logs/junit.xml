@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="CodeIgniter Application Test Suite" tests="19" assertions="23" failures="0" errors="0" time="0.318291">
+    <testsuite name="Dashboard_test" file="/var/www/html/newsportal/application/tests/controllers/Dashboard_test.php" fullPackage="Dashboard" tests="2" assertions="5" failures="0" errors="0" time="0.009757">
+      <testcase name="test_method_404" class="Dashboard_test" file="/var/www/html/newsportal/application/tests/controllers/Dashboard_test.php" line="11" assertions="1" time="0.003486"/>
+      <testcase name="test_dashboard_no_direct_access" class="Dashboard_test" file="/var/www/html/newsportal/application/tests/controllers/Dashboard_test.php" line="18" assertions="4" time="0.006271"/>
+    </testsuite>
+    <testsuite name="Home_test" file="/var/www/html/newsportal/application/tests/controllers/Home_test.php" fullPackage="Home" tests="3" assertions="3" failures="0" errors="0" time="0.007277">
+      <testcase name="test_index" class="Home_test" file="/var/www/html/newsportal/application/tests/controllers/Home_test.php" line="10" assertions="1" time="0.003502"/>
+      <testcase name="test_method_404" class="Home_test" file="/var/www/html/newsportal/application/tests/controllers/Home_test.php" line="16" assertions="1" time="0.002256"/>
+      <testcase name="test_APPPATH" class="Home_test" file="/var/www/html/newsportal/application/tests/controllers/Home_test.php" line="22" assertions="1" time="0.001519"/>
+    </testsuite>
+    <testsuite name="Login_test" file="/var/www/html/newsportal/application/tests/controllers/Login_test.php" fullPackage="Login" tests="3" assertions="3" failures="0" errors="0" time="0.006789">
+      <testcase name="test_index" class="Login_test" file="/var/www/html/newsportal/application/tests/controllers/Login_test.php" line="10" assertions="1" time="0.002247"/>
+      <testcase name="test_method_404" class="Login_test" file="/var/www/html/newsportal/application/tests/controllers/Login_test.php" line="16" assertions="1" time="0.001718"/>
+      <testcase name="test_logout_no_direct_access" class="Login_test" file="/var/www/html/newsportal/application/tests/controllers/Login_test.php" line="22" assertions="1" time="0.002824"/>
+    </testsuite>
+    <testsuite name="Register_test" file="/var/www/html/newsportal/application/tests/controllers/Register_test.php" fullPackage="Register" tests="2" assertions="2" failures="0" errors="0" time="0.005136">
+      <testcase name="test_index" class="Register_test" file="/var/www/html/newsportal/application/tests/controllers/Register_test.php" line="10" assertions="1" time="0.003005"/>
+      <testcase name="test_method_404" class="Register_test" file="/var/www/html/newsportal/application/tests/controllers/Register_test.php" line="16" assertions="1" time="0.002131"/>
+    </testsuite>
+    <testsuite name="Common_model_test" file="/var/www/html/newsportal/application/tests/models/Common_model_test.php" fullPackage="Common.model" tests="9" assertions="10" failures="0" errors="0" time="0.289332">
+      <testcase name="test_user_registration" class="Common_model_test" file="/var/www/html/newsportal/application/tests/models/Common_model_test.php" line="25" assertions="1" time="0.056488"/>
+      <testcase name="test_login_successfull" class="Common_model_test" file="/var/www/html/newsportal/application/tests/models/Common_model_test.php" line="39" assertions="1" time="0.002530"/>
+      <testcase name="test_update_user" class="Common_model_test" file="/var/www/html/newsportal/application/tests/models/Common_model_test.php" line="48" assertions="1" time="0.052736"/>
+      <testcase name="test_get_user" class="Common_model_test" file="/var/www/html/newsportal/application/tests/models/Common_model_test.php" line="57" assertions="1" time="0.002559"/>
+      <testcase name="test_delete_user" class="Common_model_test" file="/var/www/html/newsportal/application/tests/models/Common_model_test.php" line="65" assertions="1" time="0.041786"/>
+      <testcase name="test_addnews" class="Common_model_test" file="/var/www/html/newsportal/application/tests/models/Common_model_test.php" line="72" assertions="1" time="0.044546"/>
+      <testcase name="test_get_news_list" class="Common_model_test" file="/var/www/html/newsportal/application/tests/models/Common_model_test.php" line="86" assertions="2" time="0.002336"/>
+      <testcase name="test_update_news" class="Common_model_test" file="/var/www/html/newsportal/application/tests/models/Common_model_test.php" line="98" assertions="1" time="0.042105"/>
+      <testcase name="test_delete_slug" class="Common_model_test" file="/var/www/html/newsportal/application/tests/models/Common_model_test.php" line="108" assertions="1" time="0.044246"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
